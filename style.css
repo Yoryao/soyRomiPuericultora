@@ -1,12 +1,52 @@
 * {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
 body {
-    background-color: lemonchiffon;
+  background-color: lemonchiffon;
+  height: 100vh;
 }
 
-h1 {
-    text-align: center;
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.col {
+    flex-direction: column;
+}
+.row {
+    flex-direction: row;
+}
+
+#logo {
+    width: 275px;
+    text-align: center;
+    padding-top: 25px;
+}
+
+#firma {
+    padding-top: 35px;
+    width: 250px;
+}
+
+#iconContainer {
+    position: absolute;
+    bottom: 0;
+    width: 50%;
+    padding-bottom: 15px; 
+}
+
+.icon{
+    width: 50%;
+}
+
+.socialIcon {
+    width: 45px;
+    padding-bottom: 25px;
+    justify-content: center;
+    align-items: center;
+}
+
